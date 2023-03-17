@@ -1,0 +1,54 @@
+.width-100perc{
+    width: 100%;
+}
+
+.text-inpu{
+    border-left: 0;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.text-inpu-sim{
+    border-right: 0;
+    border-radius: 10px 0px 0px 10px;
+    background-color: white;
+}
+
+.orange{
+    color: orange;
+}
+
+.h-5vh{
+    height: 5vh;
+}
+
+.h-95vh{
+    height: 95vh;
+}
+
+.h-100perc{
+    height: 100%;
+}
+
+.main-cont{
+    width: 0%;
+    flex-grow: 2;
+}
+
+.side-nav{
+    background-image: url(../asset/img/sidebar-bg.png);
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .side-nav{
+        width: 70px;
+    }
+} 
+
+@media only screen and (min-width: 769px) {
+
+    .side-nav{
+        width: 200px;
+    }
+}
