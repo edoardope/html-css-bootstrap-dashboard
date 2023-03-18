@@ -17,6 +17,10 @@
     color: orange;
 }
 
+.bg-c-blue{
+    background-color: rgba(27,114,232,255);
+}
+
 .h-5vh{
     height: 5vh;
 }
@@ -32,16 +36,57 @@
 .main-cont{
     width: 0%;
     flex-grow: 2;
+    padding: 0;
 }
 
 .side-nav{
     background-image: url(../asset/img/sidebar-bg.png);
     background-repeat: no-repeat;
-    background-color: lightgray;
+    background-color: rgba(18,40,63,255);
 }
 
 a span:hover{
     border-bottom: 1px solid white;
+}
+
+.ns-form1{
+    border-radius: 5px!important; 
+}
+
+.ns-form2{
+    border-radius: 5px!important;
+    margin-left: 10px!important;
+    
+}
+
+.marg-l-0{
+    padding-left: 0;
+}
+
+.ns-form3{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.ns-simb{
+    border-radius: 5px 0px 0px 5px;
+    padding: 6px;
+}
+
+.inl{
+    display: inline;
+}
+
+#bg-pl{
+    background-color: rgba(19,89,185,255)!important;
+}
+
+#bg-app{
+    background-color: rgba(19,89,185,255)!important;
+}
+
+#dropdown-bt{
+    background-color: rgba(27,114,232,255)!important;
+    border: 1px solid white;
 }
 
 @media only screen and (max-width: 990px) {
@@ -49,11 +94,47 @@ a span:hover{
     .side-nav{
         width: 70px;
     }
+
+    .offcanvas{
+        width: 100%!important;
+    }
 } 
 
 @media only screen and (min-width: 990px) {
 
     .side-nav{
         width: 150px;
+    }
+
+    .offcanvas{
+        width: 40%!important;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    
+    #ns{
+        order: 3;
+        width: 20%;
+    }
+
+    #bo{
+        order: 1;
+    }
+
+    #st{
+        order: 2;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    
+    #bg-app{
+        display: inline-block!important;
+    }
+
+    #bg-pl{
+        display: none;
     }
 }
