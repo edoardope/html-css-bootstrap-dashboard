@@ -6,6 +6,10 @@
     width: 20%;
 }
 
+.h-30px{
+    height: 3vh;
+}
+
 .text-inpu{
     border-left: 0;
     border-radius: 0px 10px 10px 0px;
@@ -54,13 +58,13 @@ a span:hover{
 }
 
 .ns-form1{
-    border-radius: 5px!important; 
+    border-radius: 5px!important;
 }
 
 .ns-form2{
     border-radius: 5px!important;
     margin-left: 10px!important;
-    
+
 }
 
 .marg-l-0{
@@ -142,7 +146,7 @@ a span:hover{
     .offcanvas{
         width: 100%!important;
     }
-} 
+}
 
 @media only screen and (min-width: 990px) {
 
@@ -156,7 +160,7 @@ a span:hover{
 }
 
 @media only screen and (min-width: 576px) {
-    
+
     #ns{
         order: 3;
         width: 20%;
@@ -173,7 +177,7 @@ a span:hover{
 }
 
 @media only screen and (min-width: 769px) {
-    
+
     #bg-app{
         display: inline-block!important;
     }
